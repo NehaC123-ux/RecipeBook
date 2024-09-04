@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Recipe Header -->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fa fa-book"></i>fliphtml5
+        </a>
+        <div class="navbar">
+            <a href="#Features">Home</a>
+            <a href="#Features">Features</a>
+            <a href="#Products">Explore</a>
+            <a href="#Categories">Template</a>
+            <a href="#Pricing">Pricing</a>
+        </div>
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here......">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+        <a href="https://fliphtml5.com/login.php?register" class="btn">Try for Free</a>
+        <form action="" class="login-now">
+            <h3>Login Form</h3>
+            <input type="email" class="box" placeholder="Enter email...">
+            <input type="password" class="box" placeholder="Enter Password...">
+            <p>Forgot your Password? <a href="#">Click Here</a></p>
+            <p>Don't have an account? <a href="#">Create Now</a></p>
+            <input type="submit" class="btn" value="Login Now">
+        </form>
+    </header>
+
+    <!-- Recipe Flipbook -->
+    <section class="element">
+        <div class="book">
+            <input type="checkbox" class="inputt" id="c1">
+            <input type="checkbox" class="inputt" id="c2">
+            <input type="checkbox" class="inputt" id="c3">
+            <input type="checkbox" class="inputt" id="c4">
+            <input type="checkbox" class="inputt" id="c5">
+
+            <div id="cover"></div>
+
+            <div class="flip-book">
+                <div class="flip" id="p1">
+                    <div class="back">
+                        <img src="Screenshot 2024-09-01 161058.png" alt="Cover Image" height="400" width="400">
+                        <label class="back-btn" for="c1">Back</label>
+                    </div>
+                    <div class="front" style="background-color: #f8f5f2; padding: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; max-width: 600px; margin: 0 auto; font-family: 'Georgia', serif;">
+                        <h1 style="font-size: 3em; color: #d2691e; margin-bottom: 20px;">Recipe Book</h1>
+                        <h2 style="font-size: 1.5em; color: #8b4513; margin-bottom: 20px; font-style: italic;">A Culinary Journey Through Flavors</h2>
+                        <p style="font-size: 1.2em; color: #555; margin-bottom: 30px; line-height: 1.6;">Welcome to the Recipe Book, where culinary art meets creativity. Whether you're a seasoned chef or a kitchen novice, this book offers a delightful mix of traditional recipes, modern twists, and everything in between.</p>
+                        <label class="next-btn" for="c1" style="display: inline-block; padding: 10px 20px; background-color: #d2691e; color: #fff; text-transform: uppercase; font-weight: bold; border-radius: 5px; cursor: pointer; text-decoration: none;">Next</label>
+                    </div>
+                </div>
+
+                <div class="flip" id="p2">
+                    <div class="back">
+                        <img src="images22.jpg" alt="Jeera Aloo" height="400" width="400">
+                        <label class="back-btn" for="c2">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>Jeera Aloo</h2>
+                        <p>For Jeera Aloo, heat oil in a pan, then add cumin seeds and let them splutter. Sauté chopped potatoes until they start to soften. Add turmeric, red chili powder, and salt, and cook until the potatoes are tender. Stir in freshly chopped coriander and a squeeze of lemon juice for added flavor. Serve hot as a side dish with roti or rice.</p>
+                        <label class="next-btn" for="c2">Next</label>
+                    </div>
+                </div>
+
+                <div class="flip" id="p3">
+                    <div class="back">
+                        <img src="image33.jpeg" alt="Classic Margherita Pizza" height="400" width="400">
+                        <label class="back-btn" for="c3">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>Classic Margherita Pizza</h2>
+                        <p>For Classic Margherita Pizza, roll out pizza dough and place it on a baking sheet. Spread tomato sauce, add torn mozzarella, and top with fresh basil. Drizzle with olive oil and sprinkle with salt. Bake at 475°F (245°C) for 10-15 minutes until the crust is golden and cheese is melted. Enjoy!</p>
+                        <label class="next-btn" for="c3">Next</label>
+                    </div>
+                </div>
+
+                <div class="flip" id="p4">
+                    <div class="back">
+                        <img src="Screenshot 2024-09-02 082823.png" alt="Paneer Butter Masala" height="400" width="400">
+                        <label class="back-btn" for="c4">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>Paneer Butter Masala</h2>
+                        <p>For a delicious Paneer Butter Masala, start by heating oil and butter in a pan and adding cumin seeds. Sauté finely chopped onions until golden, then add ginger-garlic paste and cook for a couple of minutes. Stir in turmeric, red chili powder, and coriander powder, followed by tomato puree. Cook until the mixture thickens and the oil separates. Add cashew paste and cook for a few more minutes.</p>
+                        <label class="next-btn" for="c4">Next</label>
+                    </div>
+                </div>
+
+                <div class="flip" id="p5">
+                    <div class="back">
+                        <img src="Screenshot 2024-09-02 082132.png" alt="Chocolate Lava Cake" height="400" width="400">
+                        <label class="back-btn" for="c5">Back</label>
+                    </div>
+                    <div class="front">
+                        <h2>Chocolate Lava Cake</h2>
+                        <p>For Chocolate Lava Cake, preheat your oven to 425°F (220°C). Grease and flour ramekins. Melt 1/2 cup of butter with 1 cup of chopped chocolate in a microwave or double boiler. Whisk in 1 cup of powdered sugar and 2 large eggs, plus 2 egg yolks. Stir in 1/2 cup of flour until just combined. Pour the batter into the prepared ramekins.</p>
+                        <label class="next-btn" for="c5">Next</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Screenshot 2024-09-02 160103.png" alt="">
+                <h3>Cookingjoy</h3> 
+            </div>
+            <div class="box">
+                <img src="Screenshot 2024-09-02 162849.png" alt="">
+                <h3>Canal cookbook</h3>
+            </div>
+            <div class="box">
+                <img src="Screenshot 2024-09-02 163029.png" alt="">
+                <h3>The Art of Simple Food</h3>
+            </div>
+            <div class="box">
+                <img src="imagefeature.png" alt="">
+                <h3>Flavor Fiesta</h3>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="header2">
+        <h1 class="heading">our <span>Explore</span></h1>
+    </section>
+      <div class="container">
+        <ul id="recipe-list" class="recipe-list">
+        </ul>
+      </div>
+  
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
